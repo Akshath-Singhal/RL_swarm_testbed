@@ -1,0 +1,8 @@
+prefix=/home/ramona/Desktop/catkin_ws/devel
+
+Name: apriltags_1
+Description: Description of apriltags_1
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ramona/Desktop/catkin_ws/devel/lib 
+Requires: 

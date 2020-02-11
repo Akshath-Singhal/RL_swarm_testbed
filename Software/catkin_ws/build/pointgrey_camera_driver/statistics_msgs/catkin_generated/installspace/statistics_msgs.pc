@@ -1,0 +1,8 @@
+prefix=/home/ramona/Desktop/catkin_ws/install
+
+Name: statistics_msgs
+Description: Description of statistics_msgs
+Version: 0.13.4
+Cflags: -I/home/ramona/Desktop/catkin_ws/install/include
+Libs: -L/home/ramona/Desktop/catkin_ws/install/lib 
+Requires: message_runtime

@@ -1,0 +1,8 @@
+prefix=/home/ramona/Desktop/catkin_ws/install
+
+Name: my_rover
+Description: Description of my_rover
+Version: 0.0.0
+Cflags: -I/home/ramona/Desktop/catkin_ws/install/include
+Libs: -L/home/ramona/Desktop/catkin_ws/install/lib -lmy_rover
+Requires: roscpp std_msgs

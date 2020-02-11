@@ -1,0 +1,44 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~video_mode" : \b [str] Video mode. min: , default: format7_mode0, max: 
+- \b "~frame_rate" : \b [double] Camera speed (frames per second). min: 0.0, default: 7.0, max: 100.0
+- \b "~auto_exposure" : \b [bool] Allow the camera to automatically change exposure (Combined Gain, Iris & Shutter control). min: False, default: True, max: True
+- \b "~exposure" : \b [double] Auto exposure value (like contrast). min: -10.0, default: 1.35, max: 10.0
+- \b "~auto_shutter" : \b [bool] Shutter control state. min: False, default: True, max: True
+- \b "~shutter_speed" : \b [double] Amount of time (in seconds) for the apeture to remain open. min: 0.0, default: 0.03, max: 1.0
+- \b "~auto_gain" : \b [bool] Gain control state. min: False, default: True, max: True
+- \b "~gain" : \b [double] Relative circuit gain. min: -10.0, default: 0.0, max: 30.0
+- \b "~pan" : \b [int] Controls camera pan. min: -1000, default: 0, max: 1000
+- \b "~tilt" : \b [int] Controls camera tilt. min: -1000, default: 0, max: 1000
+- \b "~brightness" : \b [double] Black level offset. min: 0.0, default: 0.0, max: 10.0
+- \b "~auto_sharpness" : \b [bool] Allow the camera to automatically change sharpness. min: False, default: True, max: True
+- \b "~sharpness" : \b [double] sharpness. min: 0.0, default: 1024.0, max: 4095.0
+- \b "~auto_saturation" : \b [bool] Allow the camera to automatically change saturation. min: False, default: True, max: True
+- \b "~saturation" : \b [double] saturation. min: 0.0, default: 100.0, max: 399.0
+- \b "~gamma" : \b [double] Gamma expansion exponent. min: 0.5, default: 1.0, max: 4.0
+- \b "~auto_white_balance" : \b [bool] Automatically change white balance min: False, default: True, max: True
+- \b "~white_balance_blue" : \b [int] White balance blue component. min: 0, default: 800, max: 1023
+- \b "~white_balance_red" : \b [int] White balance red component. min: 0, default: 550, max: 1023
+- \b "~format7_roi_width" : \b [int] Width of Format7 Region of Interest in unbinned pixels, full width if zero. min: 0, default: 0, max: 65535
+- \b "~format7_roi_height" : \b [int] Height of Format7 Region of Interest in unbinned pixels, full height if zero. min: 0, default: 0, max: 65535
+- \b "~format7_x_offset" : \b [int] Horizontal offset for left side of Format7 ROI in unbinned pixels. min: 0, default: 0, max: 65535
+- \b "~format7_y_offset" : \b [int] Vertical offset for top of Format7 ROI in unbinned pixels. min: 0, default: 0, max: 65535
+- \b "~format7_color_coding" : \b [str] Color coding (only for Format7 modes) min: , default: raw8, max: 
+- \b "~enable_trigger" : \b [bool] Enable the external triggering mode. min: False, default: False, max: True
+- \b "~trigger_mode" : \b [str] IIDC v1.31 Trigger Modes min: , default: mode0, max: 
+- \b "~trigger_source" : \b [str] GPIO Trigger Sources min: , default: gpio0, max: 
+- \b "~trigger_polarity" : \b [int] GPIO Trigger Polarity min: -2147483648, default: 0, max: 2147483647
+- \b "~enable_trigger_delay" : \b [bool] Whether Trigger Delay is active. min: False, default: False, max: True
+- \b "~trigger_delay" : \b [double] The trigger delay to wait once triggered (in seconds). min: 0.0, default: 0.0, max: 1.0
+- \b "~trigger_parameter" : \b [int] Trigger mode parameter.  Varies based on mode. min: -32768, default: 0, max: 32767
+- \b "~enable_strobe1" : \b [bool] Whether strobe is sent. min: False, default: False, max: True
+- \b "~strobe1_polarity" : \b [int] GPIO Strobe Polarity min: -2147483648, default: 0, max: 2147483647
+- \b "~strobe1_delay" : \b [double] The delay between capture and strobe out (in milliseconds). min: 0.0, default: 0.0, max: 1000.0
+- \b "~strobe1_duration" : \b [double] Strobe duration (in milliseconds) min: 0.0, default: 0.0, max: 1000.0
+- \b "~enable_strobe2" : \b [bool] Whether strobe is sent. min: False, default: False, max: True
+- \b "~strobe2_polarity" : \b [int] GPIO Strobe Polarity min: -2147483648, default: 0, max: 2147483647
+- \b "~strobe2_delay" : \b [double] The delay between capture and strobe out (in milliseconds). min: 0.0, default: 0.0, max: 1000.0
+- \b "~strobe2_duration" : \b [double] Strobe duration (in milliseconds) min: 0.0, default: 0.0, max: 1000.0
+

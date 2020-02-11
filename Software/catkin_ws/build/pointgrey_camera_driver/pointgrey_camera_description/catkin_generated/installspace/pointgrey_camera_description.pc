@@ -1,0 +1,8 @@
+prefix=/home/ramona/Desktop/catkin_ws/install
+
+Name: pointgrey_camera_description
+Description: Description of pointgrey_camera_description
+Version: 0.13.4
+Cflags: 
+Libs: -L/home/ramona/Desktop/catkin_ws/install/lib 
+Requires: 

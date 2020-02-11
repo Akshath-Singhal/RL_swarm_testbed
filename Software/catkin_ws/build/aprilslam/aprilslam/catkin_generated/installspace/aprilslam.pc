@@ -1,0 +1,8 @@
+prefix=/home/ramona/Desktop/catkin_ws/install
+
+Name: aprilslam
+Description: Description of aprilslam
+Version: 1.0.0
+Cflags: -I/home/ramona/Desktop/catkin_ws/install/include
+Libs: -L/home/ramona/Desktop/catkin_ws/install/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/ramona/Desktop/catkin_ws/devel
+
+Name: pointgrey_camera_driver
+Description: Description of pointgrey_camera_driver
+Version: 0.13.4
+Cflags: -I/home/ramona/Desktop/catkin_ws/devel/include
+Libs: -L/home/ramona/Desktop/catkin_ws/devel/lib 
+Requires: image_exposure_msgs nodelet roscpp sensor_msgs wfov_camera_msgs

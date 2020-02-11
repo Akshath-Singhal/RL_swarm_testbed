@@ -1,0 +1,45 @@
+\subsubsection usage Usage
+\verbatim
+<node name="pointgrey_camera_driver" pkg="pointgrey_camera_driver" type="pointgrey_camera_driver">
+  <param name="video_mode" type="str" value="format7_mode0" />
+  <param name="frame_rate" type="double" value="7.0" />
+  <param name="auto_exposure" type="bool" value="True" />
+  <param name="exposure" type="double" value="1.35" />
+  <param name="auto_shutter" type="bool" value="True" />
+  <param name="shutter_speed" type="double" value="0.03" />
+  <param name="auto_gain" type="bool" value="True" />
+  <param name="gain" type="double" value="0.0" />
+  <param name="pan" type="int" value="0" />
+  <param name="tilt" type="int" value="0" />
+  <param name="brightness" type="double" value="0.0" />
+  <param name="auto_sharpness" type="bool" value="True" />
+  <param name="sharpness" type="double" value="1024.0" />
+  <param name="auto_saturation" type="bool" value="True" />
+  <param name="saturation" type="double" value="100.0" />
+  <param name="gamma" type="double" value="1.0" />
+  <param name="auto_white_balance" type="bool" value="True" />
+  <param name="white_balance_blue" type="int" value="800" />
+  <param name="white_balance_red" type="int" value="550" />
+  <param name="format7_roi_width" type="int" value="0" />
+  <param name="format7_roi_height" type="int" value="0" />
+  <param name="format7_x_offset" type="int" value="0" />
+  <param name="format7_y_offset" type="int" value="0" />
+  <param name="format7_color_coding" type="str" value="raw8" />
+  <param name="enable_trigger" type="bool" value="False" />
+  <param name="trigger_mode" type="str" value="mode0" />
+  <param name="trigger_source" type="str" value="gpio0" />
+  <param name="trigger_polarity" type="int" value="0" />
+  <param name="enable_trigger_delay" type="bool" value="False" />
+  <param name="trigger_delay" type="double" value="0.0" />
+  <param name="trigger_parameter" type="int" value="0" />
+  <param name="enable_strobe1" type="bool" value="False" />
+  <param name="strobe1_polarity" type="int" value="0" />
+  <param name="strobe1_delay" type="double" value="0.0" />
+  <param name="strobe1_duration" type="double" value="0.0" />
+  <param name="enable_strobe2" type="bool" value="False" />
+  <param name="strobe2_polarity" type="int" value="0" />
+  <param name="strobe2_delay" type="double" value="0.0" />
+  <param name="strobe2_duration" type="double" value="0.0" />
+</node>
+\endverbatim
+

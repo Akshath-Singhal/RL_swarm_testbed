@@ -1,0 +1,8 @@
+prefix=/home/ramona/Desktop/catkin_ws/devel
+
+Name: openni_launch
+Description: Description of openni_launch
+Version: 1.11.1
+Cflags: 
+Libs: -L/home/ramona/Desktop/catkin_ws/devel/lib 
+Requires: 

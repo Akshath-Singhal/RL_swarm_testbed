@@ -1,0 +1,8 @@
+prefix=/home/ramona/Desktop/catkin_ws/install
+
+Name: usb_cam_1
+Description: Description of usb_cam_1
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/ramona/Desktop/catkin_ws/install/lib 
+Requires: 

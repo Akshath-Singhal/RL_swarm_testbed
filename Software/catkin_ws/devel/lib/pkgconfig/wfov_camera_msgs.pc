@@ -1,0 +1,8 @@
+prefix=/home/ramona/Desktop/catkin_ws/devel
+
+Name: wfov_camera_msgs
+Description: Description of wfov_camera_msgs
+Version: 0.13.4
+Cflags: -I/home/ramona/Desktop/catkin_ws/devel/include
+Libs: -L/home/ramona/Desktop/catkin_ws/devel/lib 
+Requires: message_runtime sensor_msgs
