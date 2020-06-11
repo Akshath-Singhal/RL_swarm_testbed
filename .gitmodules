@@ -1,0 +1,8 @@
+[submodule "Software/catkin_ws/src/usb_cam"]
+	path = Software/catkin_ws/src/usb_cam
+	url = https://github.com/ramona1313/usb_cam.git
+	branch = master
+[submodule "Software/catkin_ws/src/apriltag_ros"]
+	path = Software/catkin_ws/src/apriltag_ros
+	url = https://github.com/ramona1313/apriltag_ros.git
+	branch = master
